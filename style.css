@@ -444,7 +444,7 @@ ul { list-style: none; }
   background: var(--beige);
   border-radius: var(--radius-md);
   overflow: hidden;
-  border: 1px solid rgba(0,0,0,0.08);
+  border: 1.5px solid rgba(0,0,0,0.18);
   transition: transform var(--trans), box-shadow var(--trans);
 }
 .menu-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.25); }
@@ -456,21 +456,41 @@ ul { list-style: none; }
 .menu-card-img-wrap img { transition: transform 0.5s ease; }
 .menu-card:hover .menu-card-img-wrap img { transform: scale(1.06); }
 
-.menu-card-body { padding: 12px; }
+.menu-card-body {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: 8px;
+  row-gap: 3px;
+  align-items: start;
+}
 .menu-card-name {
   font-family: var(--font-head);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: var(--rust);
-  margin-bottom: 4px;
   text-transform: uppercase;
+  grid-column: 1;
+  grid-row: 1;
+  line-height: 1.2;
 }
-.menu-card-desc { font-size: 11px; line-height: 1.5; color: #555; margin-bottom: 8px; }
+.menu-card-desc {
+  font-size: 10.5px;
+  line-height: 1.45;
+  color: #666;
+  grid-column: 1 / -1;
+  grid-row: 2;
+}
 .menu-card-price {
   font-family: var(--font-head);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--black);
+  grid-column: 2;
+  grid-row: 1;
+  white-space: nowrap;
+  padding-top: 1px;
 }
 
 /* ==========================================
@@ -549,14 +569,15 @@ ul { list-style: none; }
   background: var(--beige);
   border-radius: var(--radius-md);
   padding: 24px;
-  border: 1px solid rgba(0,0,0,0.06);
+  border: 1.5px solid var(--black);
   transition: transform var(--trans), box-shadow var(--trans);
 }
 .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.25); }
-.t-featured { background: var(--olive); }
-.t-featured .t-text { color: rgba(229,218,203,0.85); }
-.t-featured .t-info strong { color: var(--beige); }
-.t-featured .t-info span { color: rgba(229,218,203,0.55); }
+/* All cards same beige — no dark featured variant */
+.t-featured { background: var(--beige); }
+.t-featured .t-text { color: #333; font-style: italic; }
+.t-featured .t-info strong { color: var(--black); }
+.t-featured .t-info span { color: var(--gray); }
 
 .t-stars { color: var(--rust); font-size: 1rem; letter-spacing: 2px; margin-bottom: 14px; }
 .t-text { font-size: 14px; line-height: 1.7; color: #333; margin-bottom: 20px; font-style: italic; }
@@ -874,8 +895,8 @@ ul { list-style: none; }
   .why-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
   .why-card { padding: 32px 24px; }
 
-  /* Testimonials: 2 cols */
-  .testimonials-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  /* Testimonials: 3 cols, staggered like Ben's */
+  .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start; }
 
   /* Contact: 3-col cards */
   .contact-cards { flex-direction: row; }
