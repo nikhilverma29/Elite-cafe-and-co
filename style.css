@@ -578,7 +578,7 @@ ul { list-style: none; }
 /* ==========================================
    RESERVATION
    ========================================== */
-.reservation-section { background: var(--olive); padding: calc(var(--section-gap) * 0.7) 0; }
+.reservation-section { background: var(--olive); padding: calc(var(--section-gap) * 0.45) 0; }
 
 .reservation-note {
   font-size: 14px;
@@ -650,7 +650,7 @@ ul { list-style: none; }
   padding: 20px;
   border: 1px solid rgba(0,0,0,0.07);
 }
-.contact-icon { font-size: 1.6rem; margin-bottom: 10px; }
+.contact-icon { margin-bottom: 12px; line-height: 1; }
 .contact-card h4 {
   font-family: var(--font-head);
   font-size: 0.85rem;
@@ -835,8 +835,8 @@ ul { list-style: none; }
   .nav-desktop-links { display: flex; align-items: center; gap: 28px; }
   .nav-link {
     font-size: 14px;
-    font-weight: 500;
-    color: rgba(229,218,203,0.75);
+    font-weight: 600;
+    color: var(--rust);
     transition: color var(--trans);
   }
   .nav-link:hover { color: var(--beige); }
