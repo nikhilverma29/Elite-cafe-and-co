@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Cafe &amp; Co. — Where Every Sip Tells a Story</title>
+  <meta name="description" content="Elite Cafe &amp; Co. — A premium cafe in New Delhi. Artisan coffee, fresh food, cozy vibes. Book a table, explore our menu, find us easily. Open 7 days a week.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">ELITE<span class="accent">.</span></a>
+      <div class="nav-desktop-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Find Us</a>
+        <a href="#reservation" class="btn btn-nav-cta">Book a Table</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span class="ham-line"></span>
+        <span class="ham-line"></span>
+        <span class="ham-line"></span>
+      </button>
+    </div>
+    <div class="mobile-nav-overlay" id="mobile-nav">
+      <button class="nav-close-btn" id="nav-close" aria-label="Close menu">&#10005;</button>
+      <div class="mobile-nav-links">
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#menu" class="mobile-nav-link">Menu</a>
+        <a href="#gallery" class="mobile-nav-link">Gallery</a>
+        <a href="#testimonials" class="mobile-nav-link">Reviews</a>
+        <a href="#contact" class="mobile-nav-link">Find Us</a>
+        <a href="#reservation" class="mobile-nav-link mobile-nav-cta">Book a Table</a>
+      </div>
+      <div class="mobile-nav-footer">
+        <a href="tel:+919876543210">+91 98765 43210</a>
+        <p>14, Connaught Place, New Delhi</p>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-image-wrap">
+      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=85" alt="Elite Cafe interior" class="hero-img" loading="eager">
+      <div class="hero-img-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2019 &nbsp;&middot;&nbsp; New Delhi</p>
+      <h1 class="hero-title">WHERE EVERY<br><span class="accent">SIP TELLS</span><br>A STORY.</h1>
+      <p class="hero-sub">Artisan coffee. Fresh food. Cozy vibes.<br>Your neighbourhood cafe, redefined.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-primary" id="hero-menu-btn">Explore Menu</a>
+        <a href="#reservation" class="btn btn-outline" id="hero-book-btn">Book a Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">ELITE CAFE &amp; CO.</span>
+      <span class="marquee-sep">&#9749;</span>
+      <span class="marquee-item">ARTISAN COFFEE</span>
+      <span class="marquee-sep">&#10022;</span>
+      <span class="marquee-item">FRESH FOOD</span>
+      <span class="marquee-sep">&#9749;</span>
+      <span class="marquee-item">COZY VIBES</span>
+      <span class="marquee-sep">&#10022;</span>
+      <span class="marquee-item">NEW DELHI</span>
+      <span class="marquee-sep">&#9749;</span>
+      <span class="marquee-item">ELITE CAFE &amp; CO.</span>
+      <span class="marquee-sep">&#9749;</span>
+      <span class="marquee-item">ARTISAN COFFEE</span>
+      <span class="marquee-sep">&#10022;</span>
+      <span class="marquee-item">FRESH FOOD</span>
+      <span class="marquee-sep">&#9749;</span>
+      <span class="marquee-item">COZY VIBES</span>
+      <span class="marquee-sep">&#10022;</span>
+      <span class="marquee-item">NEW DELHI</span>
+      <span class="marquee-sep">&#9749;</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about-section reveal" id="about">
+    <div class="container">
+      <div class="about-image-col">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=700&q=80" alt="Barista at Elite Cafe" class="about-img" loading="lazy">
+          <div class="about-badge">
+            <span class="badge-star">&#9733;</span>
+            <span class="badge-num">4.8</span>
+            <span class="badge-label">Google Rating</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content-col">
+        <p class="section-eyebrow">OUR STORY</p>
+        <h2 class="section-heading">CRAFTED WITH<br><span class="accent">LOVE &amp;</span><br>PRECISION.</h2>
+        <p class="about-text">Elite Cafe &amp; Co. started as a small corner dream — a place where locals could escape the noise, sip something extraordinary, and stay a little longer than planned.</p>
+        <p class="about-text">Every bean is ethically sourced. Every recipe is crafted in-house. Every cup is made to order — because you deserve nothing less.</p>
+        <div class="stats-grid">
+          <div class="stat-item"><span class="stat-num">5+</span><span class="stat-label">Years Serving</span></div>
+          <div class="stat-item"><span class="stat-num">80+</span><span class="stat-label">Menu Items</span></div>
+          <div class="stat-item"><span class="stat-num">12K+</span><span class="stat-label">Happy Guests</span></div>
+          <div class="stat-item"><span class="stat-num">4.8</span><span class="stat-label">Avg Rating</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <p class="section-eyebrow light">WHAT WE SERVE</p>
+      <h2 class="section-heading light">OUR MENU</h2>
+      <div class="menu-tabs" id="menu-tabs" role="tablist">
+        <button class="tab-btn active" data-tab="coffee" role="tab" aria-selected="true">&#9749; Coffee</button>
+        <button class="tab-btn" data-tab="food" role="tab" aria-selected="false">&#127859; Food</button>
+        <button class="tab-btn" data-tab="desserts" role="tab" aria-selected="false">&#127856; Desserts</button>
+      </div>
+
+      <div class="menu-grid active" id="tab-coffee" role="tabpanel">
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&q=80" alt="Espresso" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Espresso</h3>
+            <p class="menu-card-desc">Pure, bold, unapologetic. Double shot of our signature blend.</p>
+            <span class="menu-card-price">&#8377;120</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80" alt="Cappuccino" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cappuccino</h3>
+            <p class="menu-card-desc">Velvety microfoam, rich espresso, a touch of cocoa dusting.</p>
+            <span class="menu-card-price">&#8377;160</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=400&q=80" alt="Oat Milk Latte" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Oat Milk Latte</h3>
+            <p class="menu-card-desc">Smooth, creamy, dairy-free. Our most-ordered drink.</p>
+            <span class="menu-card-price">&#8377;180</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80" alt="Cold Brew" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Cold Brew</h3>
+            <p class="menu-card-desc">Steeped 18 hours. Served over ice. Zero bitterness.</p>
+            <span class="menu-card-price">&#8377;200</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=400&q=80" alt="Mocha" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Mocha</h3>
+            <p class="menu-card-desc">Espresso meets Belgian chocolate. A dessert in a cup.</p>
+            <span class="menu-card-price">&#8377;190</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1485808191679-5f86510bd9d4?w=400&q=80" alt="Flat White" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Flat White</h3>
+            <p class="menu-card-desc">Strong ristretto base with silky thin microfoam.</p>
+            <span class="menu-card-price">&#8377;170</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-grid" id="tab-food" role="tabpanel" hidden>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1541519227354-08fa5d50c820?w=400&q=80" alt="Avocado Toast" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Avocado Toast</h3>
+            <p class="menu-card-desc">Sourdough, smashed avo, chili flakes, poached egg.</p>
+            <span class="menu-card-price">&#8377;220</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80" alt="Butter Croissant" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Butter Croissant</h3>
+            <p class="menu-card-desc">Flaky, buttery, baked fresh every morning.</p>
+            <span class="menu-card-price">&#8377;150</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&q=80" alt="Pancake Stack" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Pancake Stack</h3>
+            <p class="menu-card-desc">Three fluffy pancakes, maple syrup, mixed berries, cream.</p>
+            <span class="menu-card-price">&#8377;260</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=400&q=80" alt="Eggs Benedict" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Eggs Benedict</h3>
+            <p class="menu-card-desc">Poached eggs, hollandaise, smoked salmon, English muffin.</p>
+            <span class="menu-card-price">&#8377;280</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-grid" id="tab-desserts" role="tabpanel" hidden>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=400&q=80" alt="NY Cheesecake" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">NY Cheesecake</h3>
+            <p class="menu-card-desc">Dense, creamy, classic. Served with a berry compote.</p>
+            <span class="menu-card-price">&#8377;240</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&q=80" alt="Tiramisu" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Tiramisu</h3>
+            <p class="menu-card-desc">Espresso-soaked ladyfingers, mascarpone, cocoa dusting.</p>
+            <span class="menu-card-price">&#8377;260</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=80" alt="Fudge Brownie" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Fudge Brownie</h3>
+            <p class="menu-card-desc">Warm, gooey, served with a scoop of vanilla ice cream.</p>
+            <span class="menu-card-price">&#8377;180</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img-wrap"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80" alt="Blueberry Muffin" loading="lazy"></div>
+          <div class="menu-card-body">
+            <h3 class="menu-card-name">Blueberry Muffin</h3>
+            <p class="menu-card-desc">Bursting with fresh blueberries. Baked daily in-house.</p>
+            <span class="menu-card-price">&#8377;130</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section reveal" id="gallery">
+    <div class="container">
+      <p class="section-eyebrow">THE VIBE</p>
+      <h2 class="section-heading">OUR <span class="accent">GALLERY</span></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item g-tall"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=600&q=80" alt="Cafe ambience" loading="lazy"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=80" alt="Latte art" loading="lazy"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=500&q=80" alt="Cafe interior" loading="lazy"></div>
+      <div class="gallery-item g-wide"><img src="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?w=700&q=80" alt="Food plating" loading="lazy"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1460306855393-0410f61241c7?w=500&q=80" alt="Coffee details" loading="lazy"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80" alt="Coffee lifestyle" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-section reveal" id="why-us">
+    <div class="container">
+      <p class="section-eyebrow light">WHY CHOOSE US</p>
+      <h2 class="section-heading light">WHAT MAKES US<br><span class="accent">DIFFERENT</span></h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="var(--beige)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </div>
+          <h3 class="why-card-title">100% Ethically Sourced</h3>
+          <p class="why-card-text">Every bean traced back to its farm. We know exactly where your coffee comes from.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="var(--beige)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/><line x1="6" x2="18" y1="17" y2="17"/></svg>
+          </div>
+          <h3 class="why-card-title">Made From Scratch Daily</h3>
+          <p class="why-card-text">No packaged shortcuts. Every dish prepped fresh every single morning.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="var(--beige)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9z"/><path d="M20 7V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v2"/><line x1="4" x2="4" y1="17" y2="21"/><line x1="20" x2="20" y1="17" y2="21"/><line x1="9" x2="15" y1="12" y2="12"/></svg>
+          </div>
+          <h3 class="why-card-title">Cozy, Quiet Ambience</h3>
+          <p class="why-card-text">Designed to make you want to stay. Work, meet, or just breathe here.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="var(--beige)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="why-card-title">Fast &amp; Friendly Service</h3>
+          <p class="why-card-text">Your order ready in under 8 minutes. Always greeted with a warm smile.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section reveal" id="testimonials">
+    <div class="container">
+      <p class="section-eyebrow">WHAT PEOPLE SAY</p>
+      <h2 class="section-heading">TESTIMONIALS</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="t-text">"The cold brew here is unlike anything I've had in Delhi. I come here every single morning before work. Non-negotiable."</p>
+          <div class="t-author">
+            <div class="t-avatar" style="background:#FD4C1E">RK</div>
+            <div class="t-info"><strong>Rahul Khanna</strong><span>Marketing Manager, Delhi</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card t-featured">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="t-text">"Finally a cafe that actually cares about food quality. The avocado toast and oat latte combo is my forever order. Genuinely the best in the city."</p>
+          <div class="t-author">
+            <div class="t-avatar" style="background:#354238">PM</div>
+            <div class="t-info"><strong>Priya Mehta</strong><span>Freelance Designer, Gurgaon</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="t-text">"Took my clients here for a morning meeting. Everyone was impressed. Classy place, excellent coffee, great vibe overall."</p>
+          <div class="t-author">
+            <div class="t-avatar" style="background:#6B5242">AS</div>
+            <div class="t-info"><strong>Arjun Sharma</strong><span>Business Owner, Noida</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="t-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="t-text">"Booked a table for my mom's birthday. They went out of their way to make it special. Tiramisu was absolutely divine."</p>
+          <div class="t-author">
+            <div class="t-avatar" style="background:#7A6030">NK</div>
+            <div class="t-info"><strong>Neha Kapoor</strong><span>Teacher, South Delhi</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVATION -->
+  <section class="reservation-section reveal" id="reservation">
+    <div class="container">
+      <p class="section-eyebrow light">RESERVE YOUR SPOT</p>
+      <h2 class="section-heading light">BOOK A <span class="accent">TABLE</span></h2>
+      <p class="reservation-note">Fill in the details and we'll confirm via <strong>WhatsApp within 30 minutes</strong>. &#10003;</p>
+      <form class="reservation-form" id="reservation-form" novalidate>
+        <div class="form-group">
+          <label for="res-name">Your Name</label>
+          <input type="text" id="res-name" name="name" placeholder="e.g. Rahul Sharma" autocomplete="name" required>
+        </div>
+        <div class="form-group">
+          <label for="res-phone">Phone Number</label>
+          <input type="tel" id="res-phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="res-date">Date</label>
+            <input type="date" id="res-date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="res-time">Time</label>
+            <input type="time" id="res-time" name="time" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="res-guests">Number of Guests</label>
+          <select id="res-guests" name="guests" required>
+            <option value="" disabled selected>Select guests</option>
+            <option value="1 Person">1 Person</option>
+            <option value="2 People">2 People</option>
+            <option value="3 People">3 People</option>
+            <option value="4 People">4 People</option>
+            <option value="5 People">5 People</option>
+            <option value="6+ People">6+ People (Large Group)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="res-note">Special Requests <span class="optional">(Optional)</span></label>
+          <textarea id="res-note" name="note" placeholder="Birthday celebration, dietary needs, etc." rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full" id="reservation-submit-btn">Confirm via WhatsApp &#8594;</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FIND US -->
+  <section class="find-us-section reveal" id="contact">
+    <div class="container">
+      <p class="section-eyebrow">WHERE TO FIND US</p>
+      <h2 class="section-heading">FIND <span class="accent">US</span></h2>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-icon">&#128205;</div>
+          <h4>Address</h4>
+          <p>14, Connaught Place,<br>New Delhi &#8212; 110001</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">&#128336;</div>
+          <h4>Hours</h4>
+          <p>Mon&#8211;Fri: 08:00 AM &#8211; 10:00 PM<br>Sat&#8211;Sun: 07:00 AM &#8211; 11:00 PM</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">&#128222;</div>
+          <h4>Call Us</h4>
+          <a href="tel:+919876543210" class="contact-phone-link">+91 98765 43210</a>
+          <p class="contact-sub">Tap to call directly</p>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9007993764586!2d77.21543821508077!3d28.63288278242025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1696850000000!5m2!1sen!2sin" title="Elite Cafe location" width="100%" height="340" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <p class="footer-logo">ELITE<span class="accent">.</span></p>
+          <p class="footer-tagline">Start your day with a cup of happiness. One neighbourhood at a time.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram">IG</a>
+            <a href="#" class="social-link" aria-label="Facebook">FB</a>
+            <a href="#" class="social-link" aria-label="Twitter">TW</a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Explore</h4>
+          <a href="#about">About Us</a>
+          <a href="#menu">Our Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#reservation">Book a Table</a>
+        </div>
+        <div class="footer-links-col">
+          <h4>Contact</h4>
+          <a href="tel:+919876543210">+91 98765 43210</a>
+          <a href="mailto:hello@elitecafe.in">hello@elitecafe.in</a>
+          <p>14, Connaught Place,<br>New Delhi &#8212; 110001</p>
+        </div>
+        <div class="footer-links-col">
+          <h4>Hours</h4>
+          <p class="hours-label">Monday &#8211; Friday</p>
+          <p>08:00 AM &#8211; 10:00 PM</p>
+          <p class="hours-label" style="margin-top:12px">Saturday &#8211; Sunday</p>
+          <p>07:00 AM &#8211; 11:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&#169; 2024 Elite Cafe &amp; Co. All rights reserved.</p>
+      </div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">ELITE</div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/919876543210?text=Hi%20Elite%20Cafe!%20I'd%20like%20to%20book%20a%20table." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" id="whatsapp-float">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- STICKY BOTTOM BAR (Mobile Only) -->
+  <div class="sticky-bottom-bar" id="sticky-bar">
+    <a href="tel:+919876543210" class="sticky-btn sticky-call" id="sticky-call-btn">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Call Us
+    </a>
+    <a href="https://wa.me/919876543210?text=Hi%20Elite%20Cafe!" class="sticky-btn sticky-whatsapp" target="_blank" rel="noopener noreferrer" id="sticky-whatsapp-btn">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
