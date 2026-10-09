@@ -1,5 +1,5 @@
-/* ================================================
-   ELITE CAFE & CO. — style.css
+﻿/* ================================================
+   ELITE CAFE & CO. â€” style.css
    Mobile-first. Breakpoints: 768px | 1024px
    Color system from Ben's Webflow template
 ================================================ */
@@ -152,7 +152,7 @@ ul { list-style: none; }
   z-index: 1001;
 }
 
-/* Desktop nav links — hidden on mobile */
+/* Desktop nav links â€” hidden on mobile */
 .nav-desktop-links { display: none; }
 
 /* Hamburger */
@@ -518,7 +518,7 @@ ul { list-style: none; }
 }
 .gallery-item:hover img { transform: scale(1.08); filter: brightness(1); }
 
-/* Special gallery items — mobile default: normal */
+/* Special gallery items â€” mobile default: normal */
 .g-tall { aspect-ratio: 1 / 1; }
 .g-wide { aspect-ratio: 1 / 1; }
 
@@ -573,7 +573,7 @@ ul { list-style: none; }
   transition: transform var(--trans), box-shadow var(--trans);
 }
 .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.25); }
-/* All cards same beige — no dark featured variant */
+/* All cards same beige â€” no dark featured variant */
 .t-featured { background: var(--beige); }
 .t-featured .t-text { color: #333; font-style: italic; }
 .t-featured .t-info strong { color: var(--black); }
@@ -787,14 +787,14 @@ ul { list-style: none; }
   right: 18px;
   z-index: 800;
   width: 54px; height: 54px;
-  background: #25D366;
+  background: #354238;
   color: var(--white);
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 4px 20px rgba(37,211,102,0.45);
+  box-shadow: 0 4px 20px rgba(53,66,56,0.45);
   transition: transform var(--trans), box-shadow var(--trans);
 }
-.whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,0.55); }
+.whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(53,66,56,0.55); }
 .whatsapp-float:active { transform: scale(0.96); }
 
 /* Pulse ring */
@@ -803,7 +803,7 @@ ul { list-style: none; }
   position: absolute;
   inset: -4px;
   border-radius: 50%;
-  border: 2px solid rgba(37,211,102,0.4);
+  border: 2px solid rgba(53,66,56,0.4);
   animation: pulse-ring 2.5s ease infinite;
 }
 @keyframes pulse-ring {
@@ -838,10 +838,10 @@ ul { list-style: none; }
 }
 .sticky-btn:active { filter: brightness(0.9); }
 .sticky-call { background: var(--olive); }
-.sticky-whatsapp { background: #25D366; }
+.sticky-whatsapp { background: #354238; }
 
 /* ==========================================
-   TABLET — min-width: 768px
+   TABLET â€” min-width: 768px
    ========================================== */
 @media (min-width: 768px) {
   :root { --px: 40px; --section-gap: 96px; }
@@ -908,7 +908,7 @@ ul { list-style: none; }
 }
 
 /* ==========================================
-   DESKTOP — min-width: 1024px
+   DESKTOP â€” min-width: 1024px
    ========================================== */
 @media (min-width: 1024px) {
   :root { --px: 64px; --section-gap: 120px; }
@@ -929,7 +929,7 @@ ul { list-style: none; }
   .menu-card-name { font-size: 1.1rem; }
   .menu-card-body { padding: 20px; }
 
-  /* Testimonials: 4 cols? No — keep 2 wide cards but allow 4 if space. Keep 2-col for readability */
+  /* Testimonials: 4 cols? No â€” keep 2 wide cards but allow 4 if space. Keep 2-col for readability */
 
   /* Footer: 4 cols */
   .footer-grid { grid-template-columns: 1.8fr 1fr 1fr 1fr; gap: 48px; }
