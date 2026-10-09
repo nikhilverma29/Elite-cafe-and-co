@@ -579,15 +579,16 @@ ul { list-style: none; }
    RESERVATION
    ========================================== */
 .reservation-section { background: var(--olive); padding: calc(var(--section-gap) * 0.45) 0; }
+.reservation-section .container { max-width: 640px; }
 
 .reservation-note {
-  font-size: 14px;
+  font-size: 13px;
   color: rgba(229,218,203,0.7);
-  margin-bottom: 32px;
-  line-height: 1.6;
+  margin-bottom: 24px;
+  line-height: 1.5;
   background: rgba(229,218,203,0.08);
   border-left: 3px solid var(--rust);
-  padding: 14px 16px;
+  padding: 10px 14px;
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
 }
 .reservation-note strong { color: var(--beige); }
