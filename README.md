@@ -4,7 +4,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-elite--cafe--and--co.vercel.app-FD4C1E?style=for-the-badge&logo=vercel&logoColor=white)](https://elite-cafe-and-co.vercel.app)
 [![Status](https://img.shields.io/badge/Status-Live%20%26%20Active-354238?style=for-the-badge)](https://elite-cafe-and-co.vercel.app)
-[![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -101,8 +100,4 @@ To preview and work on this project locally:
   - Monday – Friday: 08:00 AM – 10:00 PM
   - Saturday – Sunday: 07:00 AM – 11:00 PM
 
----
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
